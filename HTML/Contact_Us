@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Content-Type" content="IE=edge,chrome=1">
+
+		<title>Contact Us</title>
+
+		<meta name="description" content="">
+
+		<meta name="author" content="Template">
+		<!---->
+		<link rel="stylesheet" href="../CSS/Contact_Us/contact_us_style.css" type="text/css">
+
+		<!--For responsive web design-->
+
+		<link rel="stylesheet" media="screen and (min-device-width: 1350px)" href="../CSS/Contact_Us/contact_us_style.css" />
+		<!---->
+		<link rel="stylesheet" media="screen and (min-width: 960px) and (max-width: 1349px)" href="../CSS/Contact_Us/contact_us_style.css" />
+		<link rel="stylesheet" media="screen and (min-width: 800px) and (max-width: 959px)" href="../CSS/Contact_Us/contact_us_portrait_tablet_style.css" />
+		<link rel="stylesheet" media="screen and (min-width:480px) and (max-width: 799px)" href="../CSS/Contact_Us/contact_us_landscape_mobile_style.css" />
+		<link rel="stylesheet" media="screen and (min-width:100px) and (max-width: 479px)" href="../CSS/Contact_Us/contact_us_portrait_mobile_style.css" />
+
+		
+		<script type="text/javascript" src='http://code.jquery.com/jquery-2.2.0.min.js'></script>
+		<script type="text/javascript" src='http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js'></script>
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+
+		Remove this if you use the .htaccess -->
+
+	</head>
+
+	<body id="center">
+
+		<!--Image Logo and Header on top-->
+
+		<div style="position:absolute;" id="banner_image"></div>
+		<div id="logo_field" style="text-align:center;">
+			<div>
+				<div id="logo_image"></div>
+				<div>
+					<p id="font" >
+						<em><strong>Men's Ministry</strong></em>
+					</p>
+				</div>
+
+				<div id="button_mask"></div>
+
+				<div id="home">
+
+					<a href="Home.html">
+					<p style="margin-top:.5em;">
+						<em><strong>Home</strong></em>
+					</p> </a>
+				</div>
+
+				<div id="about_us">
+					<a href="About_us.html">
+					<p style="margin-top:.5em;">
+						<em><strong>About Us</strong></em>
+					</p></a>
+				</div>
+
+				<div id="events">
+					<a href="Calendar.html">
+					<p style="margin-top:.5em;">
+						<em><strong>Calendar</strong></em>
+					</p></a>
+				</div>
+
+				<div id="announce">
+					<a href="Announce.html">
+					<p style="margin-top:.5em;">
+						<em><strong>Announcements</strong></em>
+					</p></a>
+				</div>
+
+				<div id="contact_us">
+					<p style="margin-top:.5em;text-align:center;">
+						<em><strong>Contact Us</strong></em>
+					</p>
+				</div>
+
+				<div id="page-wrap">
+					<h3><em><strong>Contact us</strong></em></h3>
+					
+					<form id="contact-form" method="post" action="https://lwcubit.github.io/php/process.php">
+
+						
+						<div class="well">
+							<table class="table table-bordered">
+								<tr>
+									
+									<td valign="top" align="left">
+									<input type="text" id="name" name="name" maxlength="50" size="30" placeholder="Your name*" required>
+									</td>
+								</tr>
+								<tr>
+									
+									<td valign="top" align="left">
+									<input  type="email" id="email" name="email" maxlength="80" size="30" placeholder="Your e-mail address*" required>
+									</td>
+								</tr>
+								<tr>
+									
+									<td valign="top" align="left">
+									<input  type="phone" id="phone" name="phone" maxlength="30" size="30" placeholder="Phone number">
+									</td>
+								</tr>
+
+								<tr>
+									
+									<td valign="top" align="left">
+										<textarea id="comments"  name="comments" maxlength="1000" cols="28" rows="6" placeholder="Your comments and feedback.* Or email us directly at Lighthousechrstn@yahoo.com" required></textarea></td>
+								</tr>
+
+								<tr>
+									<td></td>
+									<td valign="top" align="left">
+									<div>
+										<button style="margin-left:-15em;" id="submit" type="submit" class ="btn btn-primary">
+											Send
+										</button>
+										<button style="margin-left:0em;" id="reset" type="reset" class="btn">
+											Reset
+										</button>
+									</div></td>
+								</tr>
+							</table>
+						</div>
+					</form>
+					<script>
+						$("#commentForm").validate();
+					</script>
+					<a href="https://www.facebook.com/lighthouse.church.148?fref=ts">
+					<div id="facebook">					
+					</div>
+					</a>
+					<div id="services">
+						<a href="https://www.google.com/maps/place/1590+W+Foothill+Blvd,+Rialto,+CA+92376/@34.1076194,-117.4044473,17z/data=!4m2!3m1!1s0x80c34d00d4f2ecdf:0xfe30581e085bccba"><p id="servfont" style="text-decoration:underline;"><em><strong>1590 W. Foothill Blvd. Rialto, Ca. 92376</strong></em><p>
+							<img id="mapico" src="../Images/image318.png">
+						</a>
+						<p id="servfont2"><em><strong>(909)419-6896</strong></em></p>
+						<p id="servfont3"><em><strong>Order of Services</strong></em></p>
+						<p id="Sunday"><em><strong>Sunday:</strong>&nbsp;Prayer-9:00a.m.| Christian Education-10:00a.m.| Worship-11a.m.</em>
+						<p id="Tuesday"><em><strong>Tuesday:</strong>&nbsp;Prayer Chapter- 6:00p.m.-7:00p.m. | (800)383-0610</em>
+						<p id="Tuesday1"><em>Code: 1074098</em></p>
+						<p id="Wednesday"><em><strong>Wednesday:</strong>&nbsp;Office hours- 6:00p.m.-7:00p.m.</em></p> 
+						<p id="Wednesday1"><em>(Call for a counseling appointment: (909)202-7876)</em></p>
+						<p id="Thursday"><em><strong>Thursday:</strong>&nbsp;Bible study - 7:00p.m.- 8:30p.m.</em></p> 
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
